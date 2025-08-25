@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Dashboard</h1>
+  <p>Logged in as: <%= user.username %>#<%= user.discriminator %></p>
+  <img src="https://cdn.discordapp.com/avatars/<%= user.id %>/<%= user.avatar %>.png" alt="Avatar" />
+  <a href="/logout">Logout</a>
+</body>
+</html>
