@@ -3,9 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Simple Greeting</title>
+  <title>Minecraft Template Store</title>
+  <style>
+    /* Background gradient pink to purple */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff6ec4, #7873f5);
+      font-family: Arial, sans-serif;
+    }
+
+    /* The product card container */
+    .card {
+      background-color: #777777; /* Gray */
+      width: 300px;
+      height: 300px;
+      border-radius: 20px; /* Curved corners */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .card h1 {
+      margin: 0 0 20px 0;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  </style>
 </head>
 <body>
-  <h1>Hi, how are you?</h1>
+  <div class="card">
+    <h1>Minecraft Lifesteal</h1>
+    <p>Price $3.00 USD</p>
+  </div>
 </body>
 </html>
